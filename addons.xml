@@ -11,7 +11,7 @@
   <extension point="xbmc.addon.metadata">
     <language>en</language>
     <platform>all</platform>
-    <summary lang="en">Fun Videos</summary>
+    <summary lang="en">FilmesHD</summary>
     <description lang="en">Visualização de Filmes Em Sites:
 	https://filmes-hd311.webnode.pt/
 	</description>
@@ -19,15 +19,15 @@
   </extension>
 </addon>
 
-<addon id="tutorial.repository" name="Tutorial repository" version="0.0.2" provider-name="Mafarricos">
-	<extension point="xbmc.addon.repository" name="Tutorial Add-on Repository">
-		<info compressed="false">http://raw.github.com/eduartdo/filmes11hd.repository/master/addons.xml</info>
-		<checksum>http://raw.github.com/eduartdo/filmes11hd.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/eduartdo/filmes11hd.repository/master/repo/</datadir>
+<addon id="filmes11hd.repository" name="FilmesHD" version="0.0.2" provider-name="eduartdo">
+	<extension point="xbmc.addon.repository" name="FilmesHD">
+		<info compressed="false">https://raw.github.com/eduartdo/filmes11hd.repository/master/addons.xml</info>
+		<checksum>https://raw.github.com/eduartdo/filmes11hd.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/eduartdo/filmes11hd.repository/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>FilmesHD11</summary>
-		<description>Addon Description</description>
+		<description>Ver FilmesHD</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
